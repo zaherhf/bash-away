@@ -246,3 +246,7 @@ alias showBlocked='sudo ipfw list'                  # showBlocked:  All ipfw rul
     }
 
 # test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+# for setting history length
+HISTSIZE=10000
+HISTFILESIZE=10000
